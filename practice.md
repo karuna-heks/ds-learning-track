@@ -4,8 +4,8 @@
 | --- | --- | --- |
 | **1. Fork & Setup**  | Клонировать шаблон репо, создать виртуальное окружение | ✅ |
 | **2. Получить датасет** | Скопировать небольшой CSV с датасетом Титаник (ниже есть ссылки). Поместить в `data/raw/`.   | ✅ |
-| **3. Pre-processing**  | Написать `make_dataset.py` <br>– чистка, <br>– разделение на train/val, <br>– сохранить в `data/processed/`. |   |
-| **4. Exploratory Analysis**    | Создать jupyter-нотбук `notebooks/01_eda.ipynb` с быстрыми графиками распределений классов.  |   |
+| **3. Pre-processing**  | Написать `make_dataset.py` <br>– чистка, <br>– разделение на train/val, <br>– сохранить в `data/processed/`. |✅|
+| **4. Exploratory Analysis**    | Создать jupyter-нотбук `notebooks/01_eda.ipynb` с быстрыми графиками распределений классов.  |✅|
 | **5. Реализовать Dataset & Dataloader** | `dataset.py` + проверочный тест в `tests/`.   |    |
 | **6. Архитектура модели**  | Изучить шаблон в `ff_model.py` простая `nn.Sequential`. Реализовать считывание параметров модели (hidden\_units, drop\_rate) из файла `src/configs/config.yaml`.   |   |
 | **7. Базовый цикл обучения**   | Изучить скелет модуля `train_loop.py`  и запустить 5-10 эпох на CPU.  |   |
